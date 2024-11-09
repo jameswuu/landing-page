@@ -83,8 +83,8 @@ a {
 .content-b {
     margin-top: 50px;
     text-align: center;
+    align-content: center;
     height: 500px;
-
 }
 
 .b-primary {
@@ -97,7 +97,7 @@ a {
 .container {
     display: flex;
     justify-content: center;
-    gap: 150px;
+    gap: 100px;
 }
 
 .item {
@@ -112,4 +112,31 @@ a {
     margin-top: 5px;
     font-size: 18px;
     color: #1F2937;
+}
+
+
+
+/* Content C */
+.content-c {
+    margin-top: 50px;
+    height: 500px;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-content: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.author {
+    color: #1F2937;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: end;
+    margin-right: 300px;
 }
