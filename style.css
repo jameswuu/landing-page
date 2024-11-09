@@ -36,12 +36,16 @@ a {
 
 .left {
     margin-left:350px;
+    margin-right: 100px;
 }
 
 .right {
     margin-right: 350px;
 }
 
+
+
+/* Content A */
 .content-a {
     background-color: #1F2937;
     display: flex;
@@ -66,9 +70,46 @@ a {
 
 .button {
     cursor: pointer;
-    background: royalblue;
+    background: rgb(55, 108, 254);
     width: 100px;
     padding: 8px 16px;
     color: white;
     border-radius: 8px;
+}
+
+
+
+/* Content B */
+.content-b {
+    margin-top: 50px;
+    text-align: center;
+    height: 500px;
+
+}
+
+.b-primary {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+.item {
+    max-width: 200px
+}
+
+.item img {
+    border-radius: 8px;
+}
+
+.text {
+    margin-top: 5px;
+    font-size: 18px;
+    color: #1F2937;
 }
